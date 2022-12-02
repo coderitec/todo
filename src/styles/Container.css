@@ -1,0 +1,36 @@
+.container{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 20px black;
+    padding: 1em;
+    border-radius: 0 30px;
+}
+
+.card-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+}
+ul.info{
+    list-style-type: none;
+    line-height: 4;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact button{
+    padding: .7em;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+}

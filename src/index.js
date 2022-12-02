@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Container from './components/Container';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('roots'));
 root.render(
   <React.StrictMode>
-    <App />
+    <main className='card-main'>
+      <Container />
+      <Container />
+      <Container />
+      <Container />
+      <Container />
+      <Container />
+    </main>
   </React.StrictMode>
 );
 
